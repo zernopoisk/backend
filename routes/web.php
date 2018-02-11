@@ -12,5 +12,17 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
+});
+
+Route::get('/listings/create', function () {
+    return view('create.step1');
+});
+
+Route::get('/listings/preview', function () {
+    return view('create.step2');
+});
+
+Route::get('/listings/checkout', function () {
+    return view('create.step3');
 });
