@@ -6,22 +6,22 @@
 
 $seller_types = [
 
+    "manufacturer"=>[
+        "alias"=>"manufacturer",
+        "name"=>"производитель",
+        "translit"=>"proizvoditel",
+    ],
+
     "private"=>[
         "alias"=>"private",
-        "name"=>"частное",
+        "name"=>"частное лицо",
         "translit"=>"chastnoye",
     ],
 
-    "farming"=>[
-        "alias"=>"farming",
-        "name"=>"фермерское хозяйство",
-        "translit"=>"fermerskoye_khozyaystvo",
-    ],
-
-    "company"=>[
-        "alias"=>"company",
-        "name"=>"компания",
-        "translit"=>"kompaniya",
+    "business"=>[
+        "alias"=>"business",
+        "name"=>"бизнес",
+        "translit"=>"biznes",
     ],
 
     // ...

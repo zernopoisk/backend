@@ -41,13 +41,6 @@ $pickup = [
         "available"=>"yes",
     ],
 
-    "on_the_terminal"=>[
-        "alias"=>"on_the_terminal",
-        "name"=>"на терминале",
-        "translit"=>"na terminale",
-        "available"=>"yes",
-    ],
-
     // ...
 
 ];
